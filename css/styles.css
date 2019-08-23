@@ -164,13 +164,6 @@
     margin: 0 auto;
   }
   
-  .services {
-    display: block;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-  }
   
   @media (max-width: 800px){
     .services {
