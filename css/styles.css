@@ -106,17 +106,15 @@
   }
   
   @media (max-width: 600px){
-    
+    .menubar {
+      flex-direction: column;
+    }
   }
     
   nav {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
-  }
-  
-  @media (max-width: 800px){
-    
   }
   
   @media (max-width: 600px){
@@ -149,10 +147,6 @@
   a:hover {
     color: black;
   }
-  
-  @media (max-width: 800px){
-    
-  }
 
   button {
     background: white;
@@ -179,6 +173,12 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 600px){
+  .top-content {
+    flex-flow: column;
+  }
+}
+
 .innovation-content {
   margin-bottom: 30px;
   width: 48%;
@@ -192,12 +192,6 @@
     justify-content: space-evenly;
     align-items: center;
   }
-  
-  @media (max-width: 800px){
-    .main-container {
-      height: 1500px;
-    }
-  }
 
   .features-about-container {
     display: flex;
@@ -206,11 +200,43 @@
     padding: 10px;
   }
 
+  @media (max-width: 800px){
+    .features-about-container {
+      margin: 5px;
+      padding: 5px;
+    }
+  }
+
+  @media (max-width: 600px){
+    .features-about-container {
+      align-items: center;
+      flex-flow: column;
+    }
+  }
+
+  img {
+    display: flex;
+  }
+
   .services-product-vision-container{
     display: flex;
     flex-flow: wrap;
     margin: 10px;
     padding: 10px;
+  }
+
+  @media (max-width: 800px){
+    .services-product-vision-container {
+      margin: 5px;
+      padding: 5px; 
+    }
+  }
+
+  @media (max-width: 600px){
+    .services-product-vision-container {
+      align-items: center;
+      flex-flow: column;
+    }
   }
 
   .fa-content {
@@ -252,13 +278,20 @@
   
   @media (max-width: 800px){
     .bottom-content {
-      display: block;
+      display: flex;
+    }
+  }
+
+  @media (max-width: 600px){
+    .bottom-content {
+      align-items: center;
     }
   }
 
   footer {
-    display: block;
+    display: flex;
     text-align: center;
   }
+
 
   
