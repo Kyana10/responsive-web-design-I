@@ -71,7 +71,8 @@
     font-family: "Titillium Web", sans-serif;
     font-size: 16px;
   }
-  
+
+  /* CONTAINER SECTION */
   .container {
     width: 100%;
     margin: 0 auto;
@@ -90,7 +91,8 @@
       margin: 0 auto; 
     }
   }
-  
+
+  /* NAVIGATION SECTION */
   .menubar {
     display: flex;
     justify-content: space-between;
@@ -164,6 +166,7 @@
     color: white;
   }
 
+  /* TOP CONTENT SECTION */
  .top-content {
   align-items: center;
   border-bottom: 2px solid black;
@@ -184,6 +187,7 @@
   width: 48%;
 }
 
+/* MIDDLE CONTENT SECTION */
 .middle-content {
     border-bottom: 2px solid black;
     display: flex;
