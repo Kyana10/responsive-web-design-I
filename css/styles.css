@@ -228,13 +228,14 @@
     flex-flow: wrap;
     margin: 1.0rem;
     padding: 1.0rem;
-    width: 75%;
+    width: 100%;
   }
 
   @media (max-width: 800px){
     .services-product-vision-container {
-      margin: 5px;
-      padding: 5px; 
+      margin: .5rem;
+      padding: .5rem; 
+      width: 75%;
     }
   }
 
@@ -242,15 +243,16 @@
     .services-product-vision-container {
       align-items: center;
       flex-flow: column;
+      width: 100%;
     }
   }
 
   .fa-content {
-    width: 48%;
+    width: 100%;
   }
 
   .spv-content {
-    width:33%;
+    widows: 100%;
   }
   
   .main-content {
